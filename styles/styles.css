@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 
-/* Add padding to the body to prevent overlap */
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
     color: #333333;
-    background-color: #f9f9f9; /* Softer background */
-    padding-top: 70px; /* Adjust based on navbar height */
+    background-color: #f9f9f9; 
+    padding-top: 70px; 
 }
 
 /* Navbar */
@@ -35,7 +35,7 @@ body {
 .navbar .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #556b7c; /* Neutral tone */
+    color: #556b7c; 
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ body {
 
 /* Header Section */
 header.intro {
-    background: linear-gradient(135deg, #cfd9df, #e2ebf0); /* Soft gradient */
+    background: linear-gradient(135deg, #cfd9df, #e2ebf0); 
     color: #333333;
     text-align: center;
     padding: 6rem 2rem 4rem;
@@ -118,24 +118,24 @@ header.intro {
 
 .project-card {
     position: relative;
-    background-size: cover; /* Adjust background */
-    background-position: center; /* Center the image */
-    height: 250px; /* Fixed height */
+    background-size: cover;
+    background-position: center; 
+    height: 250px; 
     border-radius: 10px;
-    overflow: hidden; /* Prevent image overflow */
+    overflow: hidden; 
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex; /* Add for image handling */
-    align-items: center; /* Vertical alignment */
-    justify-content: center; /* Horizontal alignment */
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
 
 .project-card img {
-    width: 100%; /* Make the image fit the card */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure proper fitting */
-    border-radius: 10px; /* Match card’s rounded corners */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 
 .project-card:hover {
